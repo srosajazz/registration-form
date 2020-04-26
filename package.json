@@ -7,8 +7,6 @@
   },
   "repository": "https://github.com/srosajazz/registration-form.git",
   "author": "Sergio Rosa <scarlosjazz@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  }
+  "license": "MIT"
+  
 }
