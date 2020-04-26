@@ -3,6 +3,8 @@
 //https://graphql.fauna.com/graphql
 // process.env.FAUNA_API_SECRET
 
+const fetch = require('node-fetch');
+
 exports.handler = async (event) => {
   console.log(event);
   const body = JSON.parse(event.body);
