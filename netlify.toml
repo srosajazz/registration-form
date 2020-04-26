@@ -1,4 +1,2 @@
 [build]
-command = "# no build"
-publish = "src"
-functions = "functios"
+  functions = "functions/"
