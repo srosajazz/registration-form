@@ -18,27 +18,28 @@ exports.handler = async (event) => {
         Authorization: `Bearer ${process.env.FAUNA_API_SECRET}`,
       },
 
-      body: JSON.stringify({
+      body: {
         query: `
-          mutation($name: String!, $email: String!) {
-            createRegistration(data: { name: $name, email: $email }) {
+            mutation ($name: String! $email: String!) {
+            createRegistration(data:{
+              name: $name
+              email: $email
+            }) {
               _id
             }
-          }      
-        `,
-        variables: {
-          name: `${firstname} ${lastname}`,
-          email,
+          }
+         `,
+         variables: { name: `${firstname} ${lastname}`, email},
         },
-      }),
-    })
+      })
+
       .then((res) => res.json())
-      .catch((err) => console.error(err));
-  
-    console.log(response);
-  
-    return {
-      statusCode: 200,
-      body: 'boop',
+      .catch((err) => console.log error(err));
+
+      console.log(response);
+
+      return {
+        statusCode: 200,
+        body: 'boop',
+      };
     };
-  };

@@ -1,0 +1,11 @@
+{
+  "name": "RegistrationForm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "functions": "cd functions && npm i && cd .."
+  },
+  "repository": "https://github.com/srosajazz/registration-form.git",
+  "author": "Sergio Rosa <scarlosjazz@gmail.com>",
+  "license": "MIT"
+}
