@@ -2,5 +2,8 @@
   "name": "RegistrationForm",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "functions": "cd functions && npm i && cd .."
+  }
 }
