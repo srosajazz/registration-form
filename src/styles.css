@@ -47,7 +47,7 @@ button {
   color: #fff;
   margin-top: 1rem;
 }
-
+/* Honeypot field*/
 .hidden {
  display: none;
 }
