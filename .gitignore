@@ -1,2 +1,23 @@
 # Local Netlify folder
 .netlify
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+node_modules
+
+# Build directory + Folders
+/public
+.DS_Store
+/src/functions/node_modules
+#/lambda
+
+
+
+# Other
+/.history
+/.vscode
+*.env
+src/functions/secrets.js
+secrets.js
+bulkadd.js
