@@ -15,7 +15,7 @@ exports.handler = async (event) => {
         Authorization: `Bearer ${process.env.FAUNA_API_SECRET}`,
       },
 
-      body: JSON.stringify({
+      body:JSON.stringify({
         query: `
           mutation($name: String!, $email: String!) {
             createRegistration(data: { name: $name, email: $email }) {
