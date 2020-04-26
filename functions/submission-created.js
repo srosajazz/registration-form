@@ -33,11 +33,11 @@ exports.handler = async (event) => {
 
       .then((res) => res.json())
       .catch((err) => console.error(err));
-
-      console.log(response);
-
-      return {
-        statusCode: 200,
-        body: 'boop',
-      };
+  
+    console.log(response);
+  
+    return {
+      statusCode: 200,
+      body: 'boop',
     };
+  };
