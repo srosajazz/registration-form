@@ -1,5 +1,6 @@
+/* eslint-disable no-undef */
 exports.handler = async(event) => {
-  colonsole.log(event);
+  console.log(event);
 
   return {
     statusCode: 200,
