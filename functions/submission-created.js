@@ -6,7 +6,6 @@
 const fetch = require('node-fetch');
 
 exports.handler = async (event) => {
-  // console.log(event);
   const body = JSON.parse(event.body);
   const { firstname, lastname, email} = body.payload.data;
 
@@ -33,7 +32,7 @@ exports.handler = async (event) => {
       })
 
       .then((res) => res.json())
-      .catch((err) => console.log error(err));
+      .catch((err) => console.error(err));
 
       console.log(response);
 
