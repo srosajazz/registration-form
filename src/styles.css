@@ -46,6 +46,8 @@ button {
   font-size: 1.25rem;
   color: #fff;
   margin-top: 1rem;
+}
 
- 
+.hidden {
+ display: none;
 }
