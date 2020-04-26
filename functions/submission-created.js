@@ -32,8 +32,8 @@ exports.handler = async (event) => {
         },
       })
 
-      .then(res => res.json())
-      .catch(err => console.log error(err));
+      .then((res) => res.json())
+      .catch((err) => console.log error(err));
 
       console.log(response);
 
