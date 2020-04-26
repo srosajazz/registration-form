@@ -1,9 +1,8 @@
-/* eslint-disable no-undef */
-exports.handler = async (event) => {
+export async function handler(event) {
   console.log(event);
 
   return {
     statusCode: 200,
     body: 'boop',
   };
-};
+}
