@@ -1,5 +1,0 @@
-[build]
-
-command = "# no build"
-publish = "src"
-functions = "functions"

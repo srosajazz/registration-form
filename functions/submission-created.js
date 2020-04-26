@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-exports.handler = async(event) => {
+exports.handler = async (event) => {
   console.log(event);
 
   return {
